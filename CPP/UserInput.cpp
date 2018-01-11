@@ -17,7 +17,7 @@ int main()
 
 	cout << "The Area is = ";
 	cout << length * width;
-	cout << "\n";	
+	cout << "\n";			//The '\n' character is the new line character.
 
 	return 0;
 }
