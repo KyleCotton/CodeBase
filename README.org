@@ -1,0 +1,2 @@
+* CodeBase
+This is a repository for me to store example of code, as I learn the various languages.
