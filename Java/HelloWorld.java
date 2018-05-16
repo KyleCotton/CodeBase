@@ -5,8 +5,8 @@ public class HelloWorld {
 	x++;
 	System.out.println("Hello World " + x);
 	
-	for int x =0 to 10;
-	System.out.println("Hello");
+	//	for int x =0 to 10;
+	//	System.out.println("Hello");
 
 	
     }

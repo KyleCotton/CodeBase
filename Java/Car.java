@@ -1,5 +1,5 @@
 public class Car {
-    int numberOfWheels;
+    private int numberOfWheels;
 	
     public Car(int numberOfWheels) {
 	this.numberOfWheels = numberOfWheels;
@@ -8,6 +8,7 @@ public class Car {
     public int getNumberOfWheels() {
 	return numberOfWheels;
     }
+
     
     public void startEngine() {
 	System.out.println("Start your engine which has " + numberOfWheels + " wheels");
@@ -15,12 +16,13 @@ public class Car {
 
     public static void main(String[] args) {
 	Car sparky = new Car(3);
-	sparky.startEngine();
 
-
-        System.out.println("Testing this feature");
-	
-	System.out.println(sparky.getNumberOfWheels());
+	for(int i=0; i<10; i++) {
+	    System.out.println("Hello")
+	}
+	// System.out.println(args[0]);
+        // System.out.println("Testing this feature");
+	// System.out.println(sparky.getNumberOfWheels());
     }
 }
 
